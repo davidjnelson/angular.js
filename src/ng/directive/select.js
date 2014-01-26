@@ -38,7 +38,7 @@ var ngOptionsMinErr = minErr('ngOptions');
  * @param {string} ngModel Assignable angular expression to data-bind to.
  * @param {string=} name Property name of the form under which the control is published.
  * @param {string=} required The control is considered valid only if value is entered.
- * @param {string=} ngRequired Adds `required` attribute and `required` validation constraint to
+ * @param {string=} ngRequired Adds the `required` attribute and a `required` validation constraint to
  *    the element when the ngRequired expression evaluates to true. Use `ngRequired` instead of
  *    `required` when you want to data-bind to the `required` attribute.
  * @param {comprehension_expression=} ngOptions in one of the following forms:
